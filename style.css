@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+nav{
+    background-color:  #c7eaff;
+    height: 7.3rem;
+    display: flex;
+justify-content: space-around;
+align-items: center; 
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4em;
+    color: #0e0c0c;
+}
+
+.bigConteinerMain{
+width: 50%;
+height: 50%;
+  position: relative;
+    left: 25em; 
+    bottom: 1em;
+}
+
+#bigConteinerMainTwo{
+    height: 30vh;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    
+}
+
+.paragraph{
+    color: red;
+}
+
+.conteinerMain{
+    width: 25%;
+    height: 16vw;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+}
+
+h3{
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+   color: hsl(226, 100%, 13%);
+   margin-left: 4%;
+    }
+
+.contentFirstListMain{
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#imageEggs{
+    width: 25%;
+height: 25%;
+border: solid 2px #007dca;
+position: relative;
+left: 4em;
+top:3em;
+}
+
+
+#otherConteinerMain{
+  height: 30vw;
+  width: 95%;
+  padding: 2em;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+
+.textOtherConteinerMain{
+    font-size: 1.3rem;
+}
+
+.OtherConteinerMainText{
+   position: relative;
+   bottom: 6%;
+   left: 4%;
+   font-size: 1.2em;
+}
+
+
+footer{
+    height: 8rem;
+     display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    background-color: #c7eaff;
+}
+#footerText{
+    margin-top: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+   
+}
